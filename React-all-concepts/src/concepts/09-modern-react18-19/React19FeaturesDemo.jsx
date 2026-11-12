@@ -195,3 +195,4 @@ export function MessageThread({ messages, onSendMessage }) {
     </SectionCard>
   );
 }
+

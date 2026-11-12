@@ -145,3 +145,4 @@ React components must be **pure functions** with respect to their props and stat
 - [x] Use `React.lazy` and dynamic imports for non-critical route views and heavy interactive modals/charts.
 - [x] Clean up all event listeners, intervals, and open requests via `AbortController` in `useEffect` cleanups.
 - [x] Utilize `useTransition` and `useDeferredValue` for non-blocking concurrent rendering in search and data tables.
+

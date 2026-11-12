@@ -176,3 +176,4 @@ export function GoodList({ items }) {
     </SectionCard>
   );
 }
+

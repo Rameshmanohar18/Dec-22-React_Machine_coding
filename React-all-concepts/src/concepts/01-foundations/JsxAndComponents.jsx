@@ -116,3 +116,4 @@ export default function UserBadge({ name, isHighlight }) {
     </SectionCard>
   );
 }
+

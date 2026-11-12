@@ -165,3 +165,4 @@ export default function NotificationBadge({ count, isVisible, status }) {
     </SectionCard>
   );
 }
+

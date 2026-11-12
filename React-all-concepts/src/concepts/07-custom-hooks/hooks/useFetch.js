@@ -44,3 +44,4 @@ export function useFetch(url, options = {}) {
 
   return { data, loading, error };
 }
+

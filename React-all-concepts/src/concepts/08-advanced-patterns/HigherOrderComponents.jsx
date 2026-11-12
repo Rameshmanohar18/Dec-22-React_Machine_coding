@@ -113,3 +113,4 @@ export const ProtectedDashboard = withAuth(UserDashboard);`;
     </SectionCard>
   );
 }
+

@@ -168,3 +168,4 @@ Tabs.Panel = TabPanel;
     </SectionCard>
   );
 }
+

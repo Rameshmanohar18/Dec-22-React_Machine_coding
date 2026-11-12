@@ -15,3 +15,4 @@ export default function Badge({ children, variant = 'core' }) {
     </span>
   );
 }
+

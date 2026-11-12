@@ -42,3 +42,4 @@ export default function CodeBlock({ code, language = 'jsx', fileName = 'Snippet.
     </div>
   );
 }
+

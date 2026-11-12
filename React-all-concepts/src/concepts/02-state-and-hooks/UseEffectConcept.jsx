@@ -173,3 +173,4 @@ export default function DataSubscriber({ topicId }) {
     </SectionCard>
   );
 }
+
