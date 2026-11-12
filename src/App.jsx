@@ -40,6 +40,7 @@ import SkeltonComponent from "./Components/SkeltonComponent";
 import DataFetcher from "./Components/DataFetcher";
 import FileUpload from "./Components/File_upload";
 import FormHandling from "./Components/FormHandling";
+import { ReactAllConceptsApp } from "../React-all-concepts/src";
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
         <a href="/FileUpload" target="_blank" rel="noopener noreferrer">File Upload</a>
         <a href="/FormHandling" target="_blank" rel="noopener noreferrer">Form Handling</a>
         <a href="/Navbar" target="_blank" rel="noopener noreferrer">NavBar</a>
+        <a href="/react-all-concepts" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold", color: "#6366f1", background: "#e0e7ff", padding: "2px 8px", borderRadius: "4px" }}>⚛ React All Concepts</a>
       </nav>
 
       {/* ✅ SINGLE ROUTES BLOCK */}
@@ -120,6 +122,7 @@ function App() {
         <Route path="/FileUpload" element={<FileUpload />} />
         <Route path="/FormHandling" element={<FormHandling />} />
         <Route path="/Navbar" element={<NavBar />} />
+        <Route path="/react-all-concepts" element={<ReactAllConceptsApp />} />
       </Routes>
       <Footer />
     </>
